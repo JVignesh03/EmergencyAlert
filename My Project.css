@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: aquamarine;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.Navbar{
+    background-color: rgb(214, 0, 0);
+    color: white;
+    box-shadow: 0px 5px 9px rgb(255, 255, 255);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(2, 4, 7);
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 14%;
+    width: 800px;
+    padding-left: 100px;
+    border:none ; 
+}
+
+.srcg{
+    width: 350px;
+    height: 150px;
+}
+
+.btn{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    border: none;
+    width: 150px;
+    margin-top: 40px;
+}
+
+#gsearch{
+    width: 300px;
+    height: 50px;
+    border-radius: 12px;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.Box{
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-template-columns: 30% 30%;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 8%;
+}
+
+.Box1{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(110, 152, 237);
+    border-radius: 12PX;
+    border: 6px solid black;
+    box-shadow: 7px 7px 10px salmon;
+    padding-top: 26%;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+}
+
+.Box1:hover{
+    width: 320px;
+    height: 220px;
+    
+}
+.Box2{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    background-color:red ;
+    border-radius: 12PX;
+    border: 6px solid black;
+    box-shadow: 7px 7px 10px salmon;
+    padding-top: 26%;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman';
+}
+.Box3{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 12PX;
+    border: 6px solid black;
+    box-shadow: 7px 7px 10px salmon;
+    padding-top: 26%;font-family: 'Times New Roman';
+}
+.Box4{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    background-color: green;
+    border-radius: 12PX;
+    border: 6px solid black;
+    box-shadow: 7px 7px 10px salmon;
+    padding-top: 26%;font-family: 'Times New Roman';
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ///////////////    Emergency   /////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* //////////// size:border-box ////////////////////////////////////////////////////////////// */
+
+.Econtainer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+}
+
+
+
+.Ebox1{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    line-height: 42px; 
+    width: 500px;
+    height: 440px;
+    border: black;
+    background-color: gray;
+    margin: 10px;
+    margin-top: 30px;   
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 6px 6px 10px black ;  
+    /* overflow:hidden;   */
+}
+input{
+    margin-left: 50px;
+}
+
+.Ebox2{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    line-height: 42px; 
+    width: 500px;
+    height: 400px;
+    border: black;
+    background-color: gray;
+    margin: 10px;
+    margin-top: 30px;   
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 6px 6px 10px black ;  
+    /* overflow:hidden;   */
+}
+
+/* 
+.Ebox1{
+    display: flex;
+    align-items: center;
+    line-height: 42px; 
+    width: 550px;
+    border: black;
+    background-color: gray;
+    margin: 10px;
+    margin-top: 30px;   
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 6px 6px 10px black ;    
+}
+.Ebox2{
+    display: flex;
+    align-items: center;
+    line-height: 42px; 
+    width: 550px;
+    border: black;
+    background-color: gray;
+    margin: 10px;
+    margin-top: 30px;   
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 6px 6px 10px black ;    
+} */
+h1{
+    font-size: 18px;
+}
+
+.Enamelist{
+    padding: 11px;
+    width: 200px;
+}
+
+.semicolen{
+    margin: 10px 30px;
+}
+
+.TvalueBox{
+    width: 200px;
+}
+.Tvalue{
+    margin: 9px;
+    border-radius: 8px;
+    height: 30px;
+     
+}
